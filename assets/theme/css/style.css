@@ -540,7 +540,7 @@ animation: gradient-animation 4s infinite alternate;
   .menu .navbar-brand .navbar-caption-wrap {
     display: -webkit-flex; }
   .menu .navbar-brand .navbar-logo img {
-    display: -webkit-flex; }
+    display: -webkit-flex;height: 6.5rem;}
 @media (max-width: 991px) {
   .menu .navbar-collapse {
     max-height: 94vh; }
@@ -699,6 +699,8 @@ input[type="range"] {
     border: 1px solid #e8e8e8; }
   .form-active .form-control:invalid {
     border-color: red; }
+  .mbr-form label {
+  display: none }
 
 .form-control {
   padding: 0.8rem 1.2rem;

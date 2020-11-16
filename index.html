@@ -1,14 +1,18 @@
 <!DOCTYPE html>
-<html  >
+<html lang="fr" xmlns:Content-Security-Policy="http://www.w3.org/1999/xhtml">
 <head>
-  
+    Content-Security-Policy: default-src 'self';
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  
+  <!--<meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'">
+
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
   <link rel="shortcut icon" href="assets/images/122246146-383358083037993-7611301143656262981-n-188x92.png" type="image/x-icon">
-  <meta name="description" content="">
-  
+  <meta name="description" content="Morning Star, la nouvelle solution pour faire du sport en vous amusant. Demander une démo gratuitement"> <!-- Meta Description -->
+  <meta property="og:title" content="Morning Star" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://audit-tech-flax.vercel.app/index.html/" />
+  <meta property="og:image" content="assets/images/122246146-383358083037993-7611301143656262981-n-188x92.png" />
   
   <title>Home</title>
   <link rel="stylesheet" href="assets/web/assets/mobirise-icons2/mobirise2.css">
@@ -48,7 +52,7 @@
             <div class="navbar-brand">
               <span class="navbar-logo">
                   <a href="#">
-                      <img src="assets/images/122246146-383358083037993-7611301143656262981-n-188x92.png" alt="" style="height: 6.5rem;">
+                      <img src="assets/images/122246146-383358083037993-7611301143656262981-n-188x92.png" alt="">
                   </a>
               </span>
               <div class="logo-name align-center">
@@ -80,7 +84,7 @@
             <div class="col-md-12 col-lg-12 wrapper-left">
                 <h3 class="mbr-section-subtitle mbr-white align-left mbr-fonts-style display-7"><span>Faire du sport en s'amusant</span></h3>
                 <h1 class="mbr-section-title mbr-fonts-style align-left display-1">Morning Star</h1>
-                <p class="mbr-text pb-3 mbr-fonts-style display-7"></p>
+                <!--<p class="mbr-text pb-3 mbr-fonts-style display-7"></p>-->
                 
             </div>
         </div>
@@ -98,7 +102,7 @@
         <div class="container d-flex justify-content-center">
             <div class="mbr-white col-12 align-center">
                 <h2 class="mbr-section-title mbr-fonts-style line-bg-warning display-2">Solution Morning Star</h2>
-                <p class="text-top mbr-fonts-style display-7"></p>
+                <!--<p class="text-top mbr-fonts-style display-7"></p>-->
             </div>
         </div>
         <div class="row">
@@ -238,15 +242,18 @@
                     <div class="dragArea form-row">
                         <div class="col-lg-12 align-left title">
                             <h5 class="mbr-fonts-style mbr-section-title display-2"><span class="line-bg-warning">Besoin d'une Démo ?</span></h5>
-                            <p class="mbr-text mbr-fonts-style mbr-light display-7"></p>
+                            <!--<p class="mbr-text mbr-fonts-style mbr-light display-7"></p>-->
                         </div>
                         <div class="col-lg-12 form-group" data-for="Your name">
+                            <label for="Name-forms1-y">Name</label>
                             <input type="text" name="Name" placeholder="Your name *" data-form-field="Name" required="required" class="form-control display-7" id="Name-forms1-y">
                         </div>
                         <div data-for="E-mail" class="col-lg-12 form-group">
+                            <label for="E-mail-forms1-y">Email</label>
                             <input type="tel" name="E-mail" placeholder="Your E-mail *" data-form-field="E-mail" class="form-control display-7" required="required" id="E-mail-forms1-y">
                         </div>
                         <div data-for="Message" class="col-lg-12 form-group">
+                            <label for="Message-forms1-y">Message</label>
                             <textarea name="Message" placeholder="Message" data-form-field="Message" class="form-control display-7" id="Message-forms1-y"></textarea>
                         </div>
                         <div class="button-svg mbr-section-btn align-left"><button type="submit" class="btn btn-primary display-7" href="#">Envoyer message<svg class="wgl-dashes svg1 inner-dashed-border animated-dashes" fill="transparent" stroke-width="2" stroke-dasharray="9 5" stroke-dashoffset="0" stroke-linecap="round"><rect x="2px" y="2px" rx="25px" ry="25px" width="100%" height="100%"></rect></svg></button></div>
