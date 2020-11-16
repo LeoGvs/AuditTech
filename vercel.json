@@ -5,7 +5,7 @@
       "headers" : [
         {
           "key" : "Cache-Control",
-          "value" : "public, max-age=0, must-revalidate"
+          "value" : "public, max-age=2628000, must-revalidate"
         }
       ]
     },
@@ -38,14 +38,6 @@
           "value" : "1; mode=block"
         }
       ]
-    }
-  ],
-
-  "routes": [
-    {
-      "src": "/assets/(.*)",
-      "headers": { "cache-control": "s-maxage=604800" },
-      "dest": "/images/$1"
     }
   ]
 }
